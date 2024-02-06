@@ -12,7 +12,7 @@ def parse_month(month):
 def parse_date(user_string):
      split=user_string.split()
      list=split
-     print(list[0],'/' list[1],'/' list[2])
+     print(list[0]);'/' (list[1]);'/' (list[2])
 #REMOVE PASS AND YOUR CODE GOES HERE
 if __name__ == '__main__':
    def parse_month(month):
@@ -25,4 +25,4 @@ if __name__ == '__main__':
 def parse_date(user_string):
      split=user_string.split()
      list=split
-     print(list[0],'/'list[1],'/'list[2])
+     print(list[0]);'/'(list[1]);'/'(list[2])
