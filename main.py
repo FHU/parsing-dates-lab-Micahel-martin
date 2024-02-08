@@ -24,7 +24,13 @@ def parse_date(user_string):
      if user_string == '-1':
          string =('')
          return string
-     
+     else:
+         date = user_string.replace(',','').spilt()
+         date[0]= parse_month[f"{date[0]}"]
+         if int(date[1]) < 10:
+             date[1] = '0' + date[1] 
+             string = (date[0] + '/' + date[1] + '/' + date[2])
+             return string
 #REMOVE PASS AND YOUR CODE GOES HERE
 if __name__ == '__main__':
     user_input=input()
